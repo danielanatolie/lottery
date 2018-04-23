@@ -8,7 +8,7 @@ const provider = new HDWalletProvider(
   INFURA_RINKEBY_TESTNETWORK
 );
 const web3 = new Web3(provider);
-const SAMPLE_MESSAGE = ".";
+const SAMPLE_MESSAGE = '.';
 
 const deploy = async() => {
   const accounts = await web3.eth.getAccounts();
